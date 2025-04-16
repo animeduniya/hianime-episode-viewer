@@ -30,6 +30,6 @@ export const API = {
     `${BASE_URL}/api/v2/hianime/anime/${animeId}/next-episode-schedule`,
   episodeServers: (episodeId: string) => 
     `${BASE_URL}/api/v2/hianime/episode/servers?animeEpisodeId=${episodeId}`,
-  episodeSources: (episodeId: string, server: string = "hd-1", category: string = "sub") => 
+  episodeSources: (episodeId: string, server: string = "hd-2", category: string = "sub") => 
     `${BASE_URL}/api/v2/hianime/episode/sources?animeEpisodeId=${episodeId}&server=${server}&category=${category}`
 };
